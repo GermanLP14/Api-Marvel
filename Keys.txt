@@ -1,0 +1,4 @@
+Public key = b1752776229552f224e32528827becde
+Private key = e00b34713251f79ceca936350b9685ad4427a8aa
+
+https://gateway.marvel.com:443/v1/public/characters/1011334?apikey=b1752776229552f224e32528827becde&hash=aa7338f8f143cd8c0c657687b290a31e

@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+/*     background: url(/API-Marvel/img/4K-Marvel.jpg) no-repeat center center fixed;
+    background-size: cover; */
+    background-color: black;
+}
+
+body .division{
+    text-align: center;
+}
+
+#carta:hover{
+    cursor: pointer;
+    opacity: .5;
+    transition: .5s;
+}
+
+#logoMarvel{
+    width: 150px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+#personaje{
+    text-align: center;
+}
+
+ul{
+    color: white;
+    text-align: center;
+}
+
+.menu{
+    width: 100%;;
+    background-color: #323232;
+    
+}
+
+.menu a img{
+    padding: 0 20px;
+    margin-bottom: 15px;
+}
+
+.menu input[type=text]{ 
+    float: right;    
+    margin-top: 25px; 
+    margin-right: 40px; 
+    padding: 0 6px;
+    border: none;
+    font-size: 17px;
+    width: 150px;
+}
+
+.menu input[type=button]{ 
+    float: right;    
+    margin-top: 20px; 
+    margin-right: 40px; 
+    font-size: 20px;
+    width: 90px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+}
+  
+  .button:active {
+    transform: translateY(4px);
+  }
+
+
+img{
+    width: 550px;
+}
+
+#logoMarvel{
+    cursor: pointer;
+}
+
+#listado{
+    margin-top: 10px;
+}
+
+#listado img{
+    border-radius: 20px;
+}

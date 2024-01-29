@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marvel-API</title>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/codigo.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+    <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+  </head>
+
+  <header>
+    <div class="menu">
+        <a href="index.html" onclick="mostrarPersonajes()"><img src="img/marvel-logo-4.png" alt="logo" id="logoMarvel"></a>
+        <input type="button" class="button" value="Search" onclick="buscar()">
+        <input type="text" id="buscar" placeholder="Search...">        
+      </div>
+  </header>
+
+  <body>
+    <div class="division">
+
+      <div id="mostrando">
+
+        <h1 id="titulo"></h1>
+
+        <div id="personaje"></div>
+
+        <h1>Comics</h1>
+
+        <ul id="comics"></ul>         
+        
+      </div>
+
+      <div id="listado">
+      </div>
+
+    </div>
+  </body>
+</html>
